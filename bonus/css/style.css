@@ -191,3 +191,22 @@ i {
     justify-content: space-between;
     padding: 30px 0;
 }
+
+.wave {
+    background-image: url('../img/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+}
+.wave_flipped {
+    background-image: url('../img/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80px;
+    transform: scaleX(-1);
+    transform: rotateX(180deg)
+}
