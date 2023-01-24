@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #255EE9;
+}
+
+nav {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.margin_auto {
+    max-width: 1170px;
+    margin: auto;
+}
+.btn {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+}
+.btn_white {
+    background-color: white;
+    color: black;
+}
+.btn_black {
+    background-color: #36393F;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar_links {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar_links li {
+    padding: 0 15px;
+}
+
+.hero {
+    height: 500px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero_container {
+    text-align: center;
+    width: 55%;
+}
+
+.hero_text {
+    margin: 10px;
+}
+.hero_text > * {
+    padding: 10px;
+}
+.hero_text h1 {
+    font-size: 60px;
+}
+.hero_text p {
+    font-size: 20px;
+}
+
+.hero_btns button {
+    font-size: 20px;
+    margin: 0 10px;
+}
+.btn_download::before {
+    content: '\2193';
+    margin-right: 10px;
+}
