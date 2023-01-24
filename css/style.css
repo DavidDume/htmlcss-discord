@@ -20,7 +20,9 @@ a {
     text-decoration: none;
     color: white;
 }
-
+i {
+    color: white;
+}
 
 .margin_auto {
     max-width: 1170px;
@@ -133,4 +135,59 @@ a {
     background-repeat: no-repeat;
     width: fit-content;
     padding: 30px;
+}
+
+.footer {
+    background-color: #23272A;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.fsocial {
+    width: 30%;
+}
+.ftext {
+    width: calc(70% / 4);
+}
+
+.fsocial h3 {
+    color: #5865F2;
+    margin-top: 0;
+}
+.fsocial > * {
+    margin: 10px 0;
+}
+
+.language {
+    color: white;
+}
+.language img {
+    height: 15px;
+}
+
+.social > i {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.ftitle {
+    color: #5865F2;
+}
+.ftext ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.ftext li {
+    padding: 8px 0;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
 }
