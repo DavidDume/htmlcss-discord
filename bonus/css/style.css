@@ -20,6 +20,9 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    text-decoration: underline;
+}
 i {
     color: white;
 }
@@ -38,13 +41,22 @@ i {
     background-color: white;
     color: black;
 }
+.btn_white:hover {
+    color: #5865F2;
+}
 .btn_black {
     background-color: #36393F;
     color: white;
 }
+.btn_black:hover {
+    background-color: #515253;
+}
 .btn_violet {
     background-color: #5865F2;
     color: white;
+}
+.btn_violet:hover {
+    background-color: #7681ff;
 }
 .bg_gray {
     background-color: #F6F6F6;
