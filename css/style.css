@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     background-color: #255EE9;
 }
@@ -36,7 +40,13 @@ a {
     background-color: #36393F;
     color: white;
 }
-
+.btn_violet {
+    background-color: #5865F2;
+    color: white;
+}
+.bg_gray {
+    background-color: #F6F6F6;
+}
 
 .navbar {
     display: flex;
@@ -87,4 +97,40 @@ a {
 .btn_download::before {
     content: '\2193';
     margin-right: 10px;
+}
+
+.section {
+    padding: 55px;
+}
+.section_container {
+    display: flex;
+    
+}
+.section_text h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    width: 70%;
+}
+.section_text > * {
+    padding: 10px;
+}
+
+.bsection {
+    text-align: center;
+    padding: 55px 0;
+}
+.bsection_text h1 {
+    font-size: 35px;
+}
+.bsection_text > * {
+    padding: 10px;
+}
+.star_bg {
+    font-size: 20px;
+    margin: auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: fit-content;
+    padding: 30px;
 }
